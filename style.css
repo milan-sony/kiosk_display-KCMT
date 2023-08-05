@@ -13,6 +13,49 @@ body{
 }
 
 /* navbar */
+.navbar-div{
+    background-color: var(--white-color);
+}
+.navbar-head{
+    display: flex;
+    align-items: center;
+}
+.navbar-head img{
+    margin: 0;
+    width: 15%;
+    height: 15%;
+}
+.navbar-head p{
+    margin: 0;
+    line-height: 100%;
+}
+.head-one{
+    margin: 0;
+    font-weight: 900;
+    font-size: 150%;
+    text-transform: uppercase;
+    color: red;
+}
+.head-two{
+    margin: 0;
+    font-weight: 900;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: red;
+}
+.head-three{
+    margin: 0;
+    font-weight: 900;
+    font-size: 80%;
+    text-transform: uppercase;
+    color: red;
+}
+.head-four{
+    margin: 0;
+    font-weight: 900;
+    font-size: 80%;
+    color: red;
+}
 .navbar-brand img{
     margin: 0;
     width: 60%;
@@ -21,8 +64,14 @@ body{
 .nav-link{
     color: var(--black-color);
     font-weight: 600;
+    font-size: 100%;
     font-family: var(--secondary-font);
 }
 .nav-link:hover{
     color: var(--red-color);
+}
+
+/* banner */
+.banner-div{
+    background-color: var(--red-color);
 }
