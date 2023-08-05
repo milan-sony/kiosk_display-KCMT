@@ -1,0 +1,26 @@
+:root {
+    --red-color: #CF4647;
+    --yellow-color: #F5D061;
+    --white-color: #F8F6F6;
+    --black-color: #2A363B;
+
+    --primary-font: 'Playfair Display', serif;
+    --secondary-font: 'Lato', sans-serif;
+}
+body{
+    background-color: var(--white-color);
+}
+
+.navbar-brand img{
+    margin: 0;
+    width: 60%;
+    height: 50%;
+}
+.nav-link{
+    color: var(--black-color);
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+.nav-link:hover{
+    color: var(--red-color);
+}
