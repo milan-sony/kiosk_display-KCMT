@@ -7,14 +7,16 @@
     --primary-font: 'Playfair Display', serif;
     --secondary-font: 'Lato', sans-serif;
 }
+
 body{
     background-color: var(--white-color);
 }
 
+/* navbar */
 .navbar-brand img{
     margin: 0;
     width: 60%;
-    height: 50%;
+    height: 60%;
 }
 .nav-link{
     color: var(--black-color);
