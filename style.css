@@ -10,6 +10,9 @@
 
 body{
     background-color: var(--white-color);
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
 }
 
 /* navbar */
@@ -34,27 +37,27 @@ body{
     font-weight: 900;
     font-size: 150%;
     text-transform: uppercase;
-    color: red;
+    color: var(--black-color);
 }
 .head-two{
     margin: 0;
     font-weight: 900;
     font-size: 80%;
     text-transform: uppercase;
-    color: red;
+    color: var(--black-color);
 }
 .head-three{
     margin: 0;
     font-weight: 900;
     font-size: 80%;
     text-transform: uppercase;
-    color: red;
+    color: var(--black-color);
 }
 .head-four{
     margin: 0;
     font-weight: 900;
     font-size: 80%;
-    color: red;
+    color: var(--black-color);
 }
 .navbar-brand img{
     margin: 0;
@@ -72,6 +75,13 @@ body{
 }
 
 /* banner */
-.banner-div{
-    background-color: var(--red-color);
+.left-banner-div{
+    padding: 0;
+    height: auto;
+}
+.marquee-div{
+    display: inline;
+}
+.news{
+    overflow: hidden;
 }
