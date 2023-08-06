@@ -93,6 +93,8 @@ body{
 }
 .marquee-head h1{
     margin: 0;
+    padding-bottom: 10%;
+    letter-spacing: 2px;
     font-size: 200%;
     font-weight: 900;
     text-transform: uppercase;
