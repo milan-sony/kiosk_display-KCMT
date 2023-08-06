@@ -13,11 +13,14 @@ body{
     width: 100%;
     height: 100vh;
 }
-
+.main-container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
 /* navbar */
 .navbar-div{
     background-color: var(--white-color);
-    /* height: 100%; */
 }
 .navbar-head{
     display: flex;
@@ -83,37 +86,16 @@ body{
     padding: 0%;
 }
 
-/* marquee */
-.marquee-div{
-    padding: 0%;
+/* footer */
+.footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    align-items: end;
 }
-.marquee-head h1{
+.footer p{
     margin: 0;
-    padding-bottom: 10%;
-    letter-spacing: 2px;
-    font-size: 200%;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: var(--red-color);
-    font-family: var(--primary-font);
-}
-.news-updates{
-    padding: 5%;
-    list-style-type: none;
-}
-.news-updates li{
+    padding-top: 2%;
     font-size: 100%;
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    color: var(--black-color);
-}
-.news-updates li h5{
-    font-size: 110%;
-    font-family: var(--secondary-font);
-    font-weight: 700;
-    color: var(--black-color);
+    font-family: var(--primary-font);
+    font-weight: 500;
 }
