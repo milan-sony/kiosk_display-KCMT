@@ -8,6 +8,22 @@
     --secondary-font: 'Lato', sans-serif;
 }
 
+/* preloader */
+#main-container{
+    display: none;
+}
+#loader{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#loader img{
+    height: 250px;
+    width: auto;
+}
+
 body{
     background-color: var(--white-color);
     width: 100%;

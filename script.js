@@ -1,32 +1,35 @@
-// variables
-let todayDate = document.getElementById("date");
+// preloader
+window.onload=function(){
+    document.getElementById("loader").style.display="none";
+    document.getElementById("content").style.display="block";
+};
 
 // current date
-const currentDate = new Date();
-const year = currentDate.getFullYear();
-const month = currentDate.getMonth() + 1; 
+let currentDate = new Date();
+let year = currentDate.getFullYear();
+let month = currentDate.getMonth() + 1; 
 //Months are zero-based, so adding 1
-const day = currentDate.getDate();
+let day = currentDate.getDate();
 
-const formattedDate = `${day}-${month}-${year}`;
-console.log(formattedDate);
+let formattedDate = `${day}-${month}-${year}`;
 
+let todayDate = document.getElementById("date");
 todayDate.innerHTML = formattedDate;
 
 // current time
 function updateTime() {
-    var currentTime = new Date();
-    var hours = currentTime.getHours();
-    var minutes = currentTime.getMinutes();
+    let currentTime = new Date();
+    let hours = currentTime.getHours();
+    let minutes = currentTime.getMinutes();
 
     if (minutes < 10) {
         minutes = "0" + minutes;
     }
 
-    var ampm = hours >= 12 ? 'PM' : 'AM';
+    let ampm = hours >= 12 ? 'PM' : 'AM';
     hours %= 12;
     hours = hours || 12;  // Make sure 0 is displayed as 12
-    var t_str = hours + ":" + minutes + " " + ampm;
+    let t_str = hours + ":" + minutes + " " + ampm;
 
     document.getElementById('time').innerHTML = t_str;
 }
