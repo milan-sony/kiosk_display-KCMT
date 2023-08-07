@@ -38,7 +38,7 @@ body{
 .head-one{
     margin: 0;
     font-weight: 900;
-    font-size: 150%;
+    font-size: 180%;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: var(--black-color);
@@ -84,6 +84,44 @@ body{
 /* img-carousel */
 .img-carousel-div{
     padding: 0%;
+}
+
+/* newsupdate */
+.newsupdate-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--red-color);
+}
+.newsupdate-head h1{
+    margin: 0;
+    padding-bottom: 10px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 250%;
+    font-family: var(--primary-font);
+}
+.newsupdate-item p{
+    font-size: 100%;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+
+/* marquee */
+.marquee-container{
+    background-color: var(--red-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+}
+.marquee-items span{
+    margin-right: 5%;
+    color: var(--white-color);
+    font-size: 120%;
+    font-weight: 600;
+    font-family: var(--secondary-font);
 }
 
 /* footer */
