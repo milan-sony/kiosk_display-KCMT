@@ -128,12 +128,27 @@ body{
 .footer{
     display: flex;
     flex-direction: column;
-    align-items: end;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
 }
-.footer p{
+.date-time{
     margin: 0;
-    padding-top: 2%;
+    padding-bottom: 20px;
+    color: var(--red-color);
     font-size: 100%;
-    font-family: var(--primary-font);
-    font-weight: 500;
+    font-weight: 600;
+    font-family: var(--secondary-font);
+}
+
+.poweredby{
+    background-color: var(--red-color);
+    text-transform: capitalize;
+    color: var(--white-color);
+    font-size: 80%;
+    font-family: var(--secondary-font);
+}
+.poweredby a{
+    color: var(--white-color);
+    text-decoration: none;
 }
