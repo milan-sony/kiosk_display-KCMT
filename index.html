@@ -16,121 +16,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- custom CSS -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style2.css">
 </head>
+
 <body>
-
-    <!-- preloader -->
-    <div id="loader">
-        <img src="./assets/loading.gif" alt="page-loader">
-    </div>
-
-    <!-- main container -->
-    <div class="main-container">
-
-        <!-- header -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 navbar-div">
-                    <nav class="navbar navbar-expand-lg">
-                        <!-- <a class="navbar-brand" href="#"><img src="./assets/head.png" alt="college logo"></a> -->
-                        <div class="navbar-head">
-                            <img src="./assets/favicon.png" alt="logo">
-                            <p>
-                                <span class="head-one">Kristu Jyoti College</span><br>
-                                <span class="head-two">of Management and Technology</span><br>
-                                <span class="head-three">Changanacherry</span><br>
-                                <span class="head-four">Affiliated to MG University & Approved by AICTE New Delhi</span>
-                            </p>
-                        </div>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                            <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="kjc@kjcmt.ac.in"><i class="bi bi-envelope-fill"></i> kjc@kjcmt.ac.in</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="tel:+918075143465"><i class="bi bi-telephone-fill"></i> 0481 -2720696</a>
-                            </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-
-        <!-- banner section -->
-        <div class="container-fluid">
-            <div class="row">
-                <!-- banner left side -->
-                <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 img-carousel-div">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="./assets/img1.png" class="img-fluid" alt="image">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img2.png" class="img-fluid" alt="image">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="./assets/img3.png" class="img-fluid" alt="image">
-                            </div>
-                        </div>
+    <div class="container-fluid m-0 p-0">
+        <div class="row m-0 p-0">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <div class="banner-text">
+                    <h1>Kristu Jyoti College of Management & Technology</h1>
+					<h3><i class="bi bi-geo-alt-fill"></i> Changanacherry</h3>
+                    <div class="contact">
+                        <p><a class="nav-link" href="tel:+918075143465"><i class="bi bi-telephone-fill"></i> 0481 -2720696</a></p>
+                        <p><a class="nav-link" href="kjc@kjcmt.ac.in"><i class="bi bi-envelope-fill"></i> kjc@kjcmt.ac.in</a></p>
                     </div>
-                </div>
-
-                <!-- banner right side -->
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 newsupdate-div">
-                    <div class="newsupdate-head">
-                        <h1>Updates</h1>
-                    </div>
-                    <div class="newsupdate-item">
-                        <marquee height="250" width="100%" behavior="scroll" direction="up" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio iure, dolores hic tenetur perferendis perspiciatis quasi 1</p>
-                            <hr>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio iure, dolores hic tenetur perferendis perspiciatis quasi 2</p>
-                            <hr>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi provident 3</p>
-                        </marquee>
-                    </div>
-                </div>
+				</div>
+				<div class="marquee-container fixed-bottom">
+					<marquee behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();" class="marquee-items">
+						<span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio iure 1</span>
+						<span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi provident voluptate adipisci assumenda, enim reiciendis esse eu 2</span>
+						<span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi provident voluptate adipisci assumenda, enim reiciendis esse eu 3</span>
+					</marquee>
+				</div>
             </div>
+            <div class="banner">
+                <div class="banner-img img-fluid" style="background-image: url('./assets/img1.png')"></div>
+                <div class="banner-img img-fluid" style="background-image: url('./assets/img2.png')"></div>
+                <div class="banner-img img-fluid" style="background-image: url('./assets/img3.png')"></div>
+                <div class="banner-img img-fluid" style="background-image: url('./assets/img5.png')"></div>
+            </div> 
         </div>
-
-        <!-- bottom marquee -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 marquee-container">
-                    <marquee behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop();" onmouseout="this.start();" class="marquee-items">
-                        <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio iure 1</span>
-                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi provident voluptate adipisci assumenda, enim reiciendis esse eu 2</span>
-                        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi provident voluptate adipisci assumenda, enim reiciendis esse eu 3</span>
-                    </marquee>
-                </div>
-            </div>
-        </div>
-
-        <!-- footer -->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 footer">
-                    <p class="date-time">
-                        <i class="bi bi-calendar-event-fill"></i>&nbsp;&nbsp;Date: <span id="date"></span>
-                        &nbsp;
-                        &nbsp;
-                        &nbsp;
-                        &nbsp;
-                        &nbsp;
-                        <i class="bi bi-stopwatch-fill"></i>&nbsp;&nbsp;Time: <span id="time"></span></p>
-                    <p class="badge rounded-pill poweredby"><i class="bi bi-lightning-fill"></i>&nbsp;&nbsp;powered by <a href="https://inovus-labs.web.app/">Inovus Labs</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <!-- custom JS -->
-    <script src="./js/script.js"></script>
-
-    <!-- bootstrap JS v5.2 bundle -->
+    </div> 
+	
+	<!-- bootstrap JS v5.2 bundle -->
     <script src="./js/bootstrap.js"></script>
 
     <!-- bootstrap JS v5.2 CDN -->
